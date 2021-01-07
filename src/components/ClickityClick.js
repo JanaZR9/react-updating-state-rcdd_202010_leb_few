@@ -20,7 +20,7 @@ export default class ClickityClick extends Component{
     render() {
     return (
       <div>
-        <button onClick={this.handleClick}>{this.state.toggled ? "ON" : "OFF"}</button>
+        <button onClick={this.handleClick}>{this.state.hasbeenClicked ? "ON" : "OFF"}</button>
       </div>
     );
   }
